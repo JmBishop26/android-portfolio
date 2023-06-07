@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable name="educ"
+            type="com.tutorial.myportfolio.models.about.education.Education"/>
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/educ_level"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{educ.level}"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/poppins_600"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="12dp"
+            />
+
+
+        <TextView
+            android:id="@+id/educ_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:text="@{educ.year}"
+            android:textColor="@color/textColor2" />
+
+        <TextView
+            android:id="@+id/educ_course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{educ.course}"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/poppins_600"
+            android:includeFontPadding="false"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/educ_school"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{educ.school}"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="16dp"
+            />
+
+
+        <ImageView
+            android:id="@+id/exp_lineBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             app:srcCompat="@drawable/icon_horizontal_rule" />
+
+    </LinearLayout>
+</layout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">My Portfolio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="greetings">Hello! I am</string>
+    <string name="my_name">JM Obispo</string>
+    <string name="profile_string1">Aspiring Web Developer</string>
+    <string name="contact_btn_string">Contact Me</string>
+    <string name="link_back_string">Back</string>
+    <string name="string_projects">My\nProjects</string>
+    <string name="string_about">About Me</string>
+    <string name="string_contacts">My\nContacts</string>
+    <string name="string_project2">My Projects</string>
+    <string name="back_button_desc">Back button</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

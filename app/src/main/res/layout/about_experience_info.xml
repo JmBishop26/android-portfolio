@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            type="com.tutorial.myportfolio.models.about.experience.Experience"
+            name="exp"
+            />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp"
+        >
+
+        <TextView
+            android:id="@+id/exp_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{exp.company}"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/poppins_600"
+            android:includeFontPadding="false"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/exp_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{exp.date}"
+            android:textColor="@color/textColor2"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/exp_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{exp.name}"
+            android:textColor="@color/textColor"
+            android:fontFamily="@font/poppins_600"
+            android:includeFontPadding="false"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/exp_position"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{exp.position}"
+            android:textColor="@color/textColor2"
+            android:fontFamily="@font/poppins_500"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="16dp"
+
+            />
+
+
+        <TextView
+            android:id="@+id/exp_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{exp.description}"
+            android:textColor="@color/textColor2"
+            android:fontFamily="@font/poppins_regular"
+            android:includeFontPadding="false"
+            android:layout_marginBottom="16dp" />
+
+        <ImageView
+            android:id="@+id/exp_lineBreak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_horizontal_rule" />
+
+    </LinearLayout>
+</layout>
