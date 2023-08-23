@@ -8,26 +8,16 @@ class ExperienceDataProvider {
         experiences.add(
             Experience(
                 1,
-                "Personalized Internet Ads Assessor",
-                "Independent Contractor",
-                "TELUS International",
-                "July 2021 - February 2022",
-                "Assessed the quality of Google Advertisements appearing in user’s search results."
+                "Programmer Intern",
+                "Intern",
+                "Zynappse Corporation",
+                "February 2019 - March 2019",
+                "Learned and developed applications for the web and android applications using the technology stack of the company. Experienced doing Quality Assurance jobs"
             )
         )
         experiences.add(
             Experience(
                 2,
-                "Social Worker Assistant",
-                "Summer Job Employee",
-                "SIKAP BUHAY (Quezon City Hall)",
-                "April 2019 - May 2019",
-                "Assisted people who come to our office to apply for small business support."
-            )
-        )
-        experiences.add(
-            Experience(
-                3,
                 "IT Support Assistant",
                 "Intern",
                 "Sutherland Philippines",

@@ -20,7 +20,7 @@
         <item name="cardBackgroundColor">@color/cardColor</item>
         <item name="android:textColor">@color/textColor</item>
         <item name="android:fontFamily">@font/poppins_600</item>
-        <item name="android:textAllCaps">false</item>]
+        <item name="android:textAllCaps">false</item>
         <item name="cardCornerRadius">20dp</item>
     </style>
 
@@ -34,7 +34,6 @@
 
     <style name="TabStyle" parent="">
         <item name="tabBackground">@drawable/tab_item_bg</item>
-<!--        <item name="tabBackground">@color/white</item>-->
         <item name="tabTextColor">@color/textColor2</item>
         <item name="tabSelectedTextColor">@color/textColor</item>
         <item name="tabIndicatorColor">@color/textColor</item>
@@ -48,6 +47,14 @@
         <item name="android:textAllCaps">false</item>
     </style>
 
+    <style name="CustomInputAppearance" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="fontFamily">@font/poppins_regular</item>
+        <item name="boxStrokeColor">@color/textColor</item>
+        <item name="hintTextColor">@color/textColor</item>
+        <item name="textAppearanceBody1">@color/textColor</item>
+        <item name="android:textSize">14sp</item>
+
+    </style>
     
 
 </resources>

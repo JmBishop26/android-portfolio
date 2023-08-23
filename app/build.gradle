@@ -6,12 +6,12 @@ plugins {
 
 android {
     namespace 'com.tutorial.myportfolio'
-    compileSdk 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.tutorial.myportfolio"
         minSdk 26
-        targetSdk 33
+        targetSdk 34
         versionCode 1
         versionName "1.0"
 
@@ -40,9 +40,13 @@ android {
     buildFeatures {
         viewBinding true
     }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
+    }
 }
 
 dependencies {
+    implementation 'androidx.core:core-ktx:+'
     def nav_version = "2.5.3"
 
     implementation 'androidx.core:core-ktx:1.8.0'
@@ -76,4 +80,12 @@ dependencies {
 
     //flexbox layout
     implementation 'com.google.android.flexbox:flexbox:3.0.0'
+
+    //okhttp
+    implementation "com.squareup.okhttp3:okhttp:4.10.0"
+
+    //coroutines
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.6.4"
+
+
 }

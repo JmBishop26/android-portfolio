@@ -9,11 +9,15 @@
     <string name="link_back_string">Back</string>
     <string name="string_projects">My\nProjects</string>
     <string name="string_about">About Me</string>
-    <string name="string_contacts">My\nContacts</string>
+    <string name="string_contact">Contact Me</string>
     <string name="string_project2">My Projects</string>
     <string name="back_button_desc">Back button</string>
     <string name="title_activity_main">MainActivity</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="name_input_label">Your Name</string>
+    <string name="email_input_label">Your Email</string>
+    <string name="message_input_label">Your Message</string>
+    <string name="send_button_text">Send Email</string>
 </resources>

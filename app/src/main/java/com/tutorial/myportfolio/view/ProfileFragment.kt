@@ -36,6 +36,10 @@ class ProfileFragment : Fragment() {
             findNavController().navigate(R.id.action_profileFragment_to_aboutFragment)
         }
 
+        binding.btnContact.setOnClickListener{
+            findNavController().navigate(R.id.action_profileFragment_to_contactFragment)
+        }
+
         BottomSheetBehavior.from(binding.bottomSheet).apply {
             peekHeight = 350
             this.state = BottomSheetBehavior.STATE_COLLAPSED
